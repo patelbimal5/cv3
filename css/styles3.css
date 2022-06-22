@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+ /* font-family: 'Great Vibes', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap');
+/* font-family: 'IBM Plex Mono', monospace; */
+
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+/* font-family: 'Kdam Thmor Pro', sans-serif; */
+
+$progress-bar-color:  #787A91;
+
+body{
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  margin: 0%;
+}
+
+h1{
+  font-size: 5rem;
+}
+
+h2{
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+h4{
+  letter-spacing: 2px;
+}
+
+h5{
+  margin-left: 5px;
+}
+
+section{
+  margin: 0;
+}
+
+#header{
+  background-color: #8D8DAA;
+  color: #0F044C;
+}
+
+.intro, .contact{
+  text-align: center;
+  background-color: #041C32;
+  color: #787A91;
+  padding: 10% 10%;
+}
+
+.about, .resume, .work, .projects, .skills, .websites{
+  background-color: #041C32;
+  color: #787A91;
+  font-size: 1rem;
+  padding: 5% 15%;
+}
+
+.intro{
+  height: 900px;
+}
+
+.name, .fullstackdeveloper{
+  position: absolute;
+}
+
+span{
+  font-family: 'Great Vibes', cursive;
+}
+
+.name{
+  font-size: 3.5rem;
+  font-family: 'IBM Plex Mono', monospace;
+  top: 55%;
+  left:28%;
+}
+
+.fullstackdeveloper{
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  font-size: 1.5rem;
+  top: 65%;
+  left:40%;
+}
+
+.icon{
+  position: absolute;
+  padding: 2%;
+  top: 99%;
+  height: 5%;
+  width: 5%;
+  font-size: 1.5rem;
+  color:#8D8DAA;
+}
+.icon:hover{
+  color:#EEEEEE;
+}
+
+.iconfooter{
+  color:#8D8DAA;
+  height: 5%;
+  width: 5%;
+}
+.iconfooter:hover{
+  color:#EEEEEE;
+}
+
+.li{
+  left: 45%;
+}
+
+.gi{
+  left:50%;
+}
+
+.float{
+  position: absolute;
+  text-transform: uppercase;
+    text-align: center;
+    padding: 2%;
+    display: inline-block;
+    font-size: 1.25rem;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    animation: wipe-enter 2s;
+}
+
+@keyframes wipe-enter {
+	0% {
+		transform: scale(0, 0);
+	}
+}
+
+.aspiring{
+  font-size: 2rem;
+  top: 15%;
+  left: 15%;
+}
+
+.growth{
+  top:15%;
+  left: 65%;
+}
+
+.capable{
+  letter-spacing: 10px;
+  font-size: 2rem;
+  top: 30%;
+  left: 30%;
+}
+
+.precision{
+  font-size: 1rem;
+  top: 25%;
+  left: 65%;
+}
+
+.ambitious{
+  font-size: 4rem;
+  left:60%;
+  top:30%;
+}
+
+.evolve{
+  writing-mode: vertical-rl;
+  top:25%;
+  left: 18%;
+}
+
+.adaptive{
+  writing-mode: vertical-rl;
+  top: 20%;
+  left: 50%;
+}
+
+.innovative{
+  font-size: 1.5rem;
+  top : 20%;
+  left: 33.5%;
+}
+
+.js{
+  font-size: 2rem;
+  left: 30%;
+  top: 70%;
+}
+
+.css{
+  writing-mode: vertical-rl;
+  left: 25%;
+  top: 75%;
+  letter-spacing: 15px;
+}
+
+.html{
+  font-size: 3rem;
+  top: 80%;
+  left: 30%;
+}
+
+.react{
+  left: 18%;
+  top: 70%;
+}
+
+.git{
+  font-size: 2rem;
+  left: 18%;
+  top: 85%;
+}
+
+.gitlab{
+  left: 15%;
+  top: 77%;
+}
+
+.sass{
+  letter-spacing: 10px;
+  left: 44%;
+  top: 75%;
+  writing-mode: vertical-rl;
+}
+
+.mongodb{
+  letter-spacing: 7px;
+  font-weight: bold;
+  font-size: 1rem;
+  left: 50%;
+  top: 72%;
+}
+
+.mysql{
+  left:62%;
+  top: 76%;
+  writing-mode: vertical-rl;
+}
+
+.nodejs{
+  font-size: 2rem;
+  left: 52%;
+  top: 80%;
+}
+
+.agile{
+  font-size: 2rem;
+  left:70%;
+  top: 77%;
+}
+
+
+#resume{
+  background-color: #041C32;
+  color: #787A91;
+  padding-top: 10%;
+  padding-bottom: 0%;
+}
+
+.about{
+  padding: 10% 20% !important;
+}
+
+.progress{
+  margin: 5px;
+  margin-bottom: 7px;
+  background-color: #92A9BD !important;
+}
+
+.btn-primary{
+  --bs-btn-color: black !important;
+    --bs-btn-bg: #7C99AC !important;
+    --bs-btn-border-color: #7C99AC !important;
+    --bs-btn-hover-color: #041C32 !important;
+    --bs-btn-hover-bg: #316B83 !important;
+    --bs-btn-hover-border-color: #316B83 !important;
+}
+
+.aboutrow{
+  text-align: center;
+}
+
+.tech{
+  font-weight: 500;
+  letter-spacing: 3.5px !important;
+}
+
+img{
+  height: 200px;
+  width: 200px;
+}
+
+.imgpara{
+  font-size: 1.15rem !important;
+}
+
+.row{
+  width: 100%;
+}
+
+.h2websites{
+  padding:0% 5% 5%;
+}
+
+.box{
+  background-color:transparent;
+  color: #787A91;
+  padding: 5px;
+  border-radius: 5px;
+}
