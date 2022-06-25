@@ -272,6 +272,10 @@ span{
     --bs-btn-hover-border-color: #316B83 !important;
 }
 
+.webdev{
+  display: inline-block;
+}
+
 .aboutrow{
   text-align: center;
 }
