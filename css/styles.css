@@ -383,20 +383,20 @@ img{
   }
 
   .name{
-    font-size: 2.5rem;
+    font-size: 2rem;
     left: 20%;
-    top:47%;
+    top:20%;
     }
 
   .fullstackdeveloper{
-    font-size: 1rem;
-    top:60%;
+    font-size: 0.75rem;
+    top:30%;
     }
 
     .ambitious{
-      font-size: 1.5rem;
+      font-size: 0.5rem;
       left:60%;
-      top:30%;
+      top:20%;
     }
 
 }
