@@ -85,7 +85,7 @@ span{
 .icon{
   position: absolute;
   padding: 2%;
-  top: 99%;
+  bottom: 1%;
   height: 5%;
   width: 5%;
   font-size: 1.5rem;
