@@ -57,6 +57,7 @@ section{
 
 .intro{
   height: 900px;
+  position:relative;
 }
 
 .name, .fullstackdeveloper{
