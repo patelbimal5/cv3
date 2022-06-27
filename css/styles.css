@@ -28,6 +28,10 @@ h4{
   letter-spacing: 2px;
 }
 
+h4:hover{
+  color: #198754;
+}
+
 h5{
   margin-left: 5px;
 }
@@ -57,7 +61,7 @@ section{
 
 .intro{
   height: 900px;
-  position:relative;
+  position: relative;
 }
 
 .name, .fullstackdeveloper{
@@ -73,6 +77,7 @@ span{
   font-family: 'IBM Plex Mono', monospace;
   top: 55%;
   left:28%;
+  /* color: #91C483; */
 }
 
 .fullstackdeveloper{
@@ -85,7 +90,7 @@ span{
 .icon{
   position: absolute;
   padding: 2%;
-  bottom: 1%;
+  bottom: 0.1%;
   height: 5%;
   width: 5%;
   font-size: 1.5rem;
@@ -97,11 +102,31 @@ span{
 
 .iconfooter{
   color:#8D8DAA;
-  height: 5%;
-  width: 5%;
+  font-size: 1.5rem;
+  height: 10% !important;
+  width: 10% !important;
+  padding: 5px !important;
+  margin: 5px;
 }
 .iconfooter:hover{
   color:#EEEEEE;
+}
+
+.abouticon{
+  text-decoration: none !important;
+  color:#8D8DAA;
+}
+
+.abouticon:hover{
+  color:#D1D1D1;
+}
+
+.arrow{
+  margin-top: 50px;
+}
+
+.availableforwork{
+  letter-spacing: 5px !important;
 }
 
 .li{
@@ -122,6 +147,10 @@ span{
     letter-spacing: 5px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
     animation: wipe-enter 2s;
+}
+
+.float:hover{
+  color: #198754;
 }
 
 @keyframes wipe-enter {
@@ -177,6 +206,7 @@ span{
   top : 20%;
   left: 33.5%;
 }
+
 
 .js{
   font-size: 2rem;
@@ -310,6 +340,7 @@ img{
   border-radius: 5px;
 }
 
+
 @media only screen and ( max-width:990px) {
   #header{
     background-color: #8D8DAA;
@@ -343,7 +374,7 @@ img{
 
 }
 
-@media only screen and ( max-width:780px) {
+@media only screen and ( max-width:790px) {
   #header{
     text-align: center;
   }
@@ -373,7 +404,6 @@ img{
     }
 
 }
-
 
 @media only screen and ( max-width:400px) {
   #header{
