@@ -344,6 +344,10 @@ img{
 
 
 @media only screen and ( max-width:990px) {
+   h5{
+	letter-spacing: 1px;
+   }
+ 
   #header{
     background-color: #8D8DAA;
     color: #0F044C;
@@ -408,6 +412,10 @@ img{
 }
 
 @media only screen and ( max-width:400px) {
+  h5{
+	letter-spacing: 1px;
+   }
+	
   #header{
     text-align: center;
   }
