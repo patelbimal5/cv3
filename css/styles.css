@@ -297,6 +297,7 @@ span{
 }
 
 .btn-primary{
+   margin-top: 5px;
   --bs-btn-color: black !important;
     --bs-btn-bg: #7C99AC !important;
     --bs-btn-border-color: #7C99AC !important;
