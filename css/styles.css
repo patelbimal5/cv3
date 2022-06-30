@@ -1,258 +1,258 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
- /* font-family: 'Great Vibes', cursive; */
-
+/* font-family: 'Great Vibes', cursive; */
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap');
 /* font-family: 'IBM Plex Mono', monospace; */
-
 @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
 /* font-family: 'Kdam Thmor Pro', sans-serif; */
+$progress-bar-color: #787A91;
 
-$progress-bar-color:  #787A91;
-
-body{
+body {
   font-family: 'Roboto', sans-serif;
   text-align: center;
   margin: 0%;
   background-color: #041C32;
 }
 
-h1{
+h1 {
   font-size: 5rem;
 }
 
-h2{
+h2 {
   text-align: center;
   margin-bottom: 5px;
 }
 
-h4{
+h4 {
   letter-spacing: 2px;
 }
 
-h4:hover{
+h4:hover {
   color: #198754;
 }
 
-h5{
+h5 {
   margin-left: 5px;
   letter-spacing: 2px;
 }
 
-section{
+section {
   margin: 0;
 }
 
-#header{
+#header {
   background-color: #8D8DAA;
   color: #0F044C;
+  text-transform: uppercase;
 }
 
-.intro, .contact{
+.intro, .contact {
   text-align: center;
   background-color: #041C32;
   color: #787A91;
   padding: 10% 10%;
 }
 
-.about, .resume, .work, .projects, .skills, .websites{
+.about, .resume, .work, .projects, .skills, .websites {
   background-color: #041C32;
   color: #787A91;
   font-size: 1rem;
-  padding: 5% 15%;
+  padding: 5% 20%;
 }
 
-.intro{
+.intro {
   height: 900px;
   position: relative;
 }
 
-.name, .fullstackdeveloper{
+.name, .fullstackdeveloper {
   position: absolute;
 }
 
-span{
+span {
   font-family: 'Great Vibes', cursive;
 }
 
-.name{
+.name {
   font-size: 3.5rem;
   font-family: 'IBM Plex Mono', monospace;
   top: 55%;
-  left:28%;
+  left: 28%;
   /* color: #91C483; */
 }
 
-.fullstackdeveloper{
+.fullstackdeveloper {
   font-family: 'Kdam Thmor Pro', sans-serif;
   font-size: 1.5rem;
   top: 65%;
-  left:40%;
+  left: 40%;
 }
 
-.icon{
+.icon {
   position: absolute;
   padding: 2%;
   bottom: 0.1%;
   height: 5%;
   width: 5%;
   font-size: 1.5rem;
-  color:#8D8DAA;
-}
-.icon:hover{
-  color:#EEEEEE;
+  color: #8D8DAA;
 }
 
-.iconfooter{
-  color:#8D8DAA;
+.icon:hover {
+  color: #EEEEEE;
+}
+
+.iconfooter {
+  color: #8D8DAA;
   font-size: 1.5rem;
   height: 10% !important;
   width: 10% !important;
   padding: 5px !important;
   margin: 5px;
 }
-.iconfooter:hover{
-  color:#EEEEEE;
+
+.iconfooter:hover {
+  color: #EEEEEE;
 }
 
-.abouticon{
+.abouticon {
   text-decoration: none !important;
-  color:#8D8DAA;
+  color: #8D8DAA;
 }
 
-.abouticon:hover{
-  color:#D1D1D1;
+.abouticon:hover {
+  color: #D1D1D1;
 }
 
-.arrow{
+.arrow {
   margin-top: 50px;
+  font-size: 2.5rem;
 }
 
-.availableforwork{
+.availableforwork {
   letter-spacing: 5px !important;
 }
 
-.li{
+.li {
   left: 45%;
 }
 
-.gi{
-  left:50%;
+.gi {
+  left: 50%;
 }
 
-.float{
+.float {
   position: absolute;
   text-transform: uppercase;
-    text-align: center;
-    padding: 2%;
-    display: inline-block;
-    font-size: 1.25rem;
-    letter-spacing: 5px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-    animation: wipe-enter 2s;
+  text-align: center;
+  padding: 2%;
+  display: inline-block;
+  font-size: 1.25rem;
+  letter-spacing: 5px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  animation: wipe-enter 2s;
 }
 
-.float:hover{
+.float:hover {
   color: #198754;
 }
 
 @keyframes wipe-enter {
-	0% {
-		transform: scale(0, 0);
-	}
+  0% {
+    transform: scale(0, 0);
+  }
 }
 
-.aspiring{
+.aspiring {
   font-size: 2rem;
   top: 15%;
   left: 15%;
 }
 
-.growth{
-  top:15%;
+.growth {
+  top: 15%;
   left: 65%;
 }
 
-.capable{
+.capable {
   letter-spacing: 10px;
   font-size: 2rem;
   top: 30%;
   left: 30%;
 }
 
-.precision{
+.precision {
   font-size: 1rem;
   top: 25%;
   left: 65%;
 }
 
-.ambitious{
+.ambitious {
   font-size: 4rem;
-  left:60%;
-  top:30%;
+  left: 60%;
+  top: 30%;
 }
 
-.evolve{
+.evolve {
   writing-mode: vertical-rl;
-  top:25%;
+  top: 25%;
   left: 18%;
 }
 
-.adaptive{
+.adaptive {
   writing-mode: vertical-rl;
   top: 20%;
   left: 50%;
 }
 
-.innovative{
+.innovative {
   font-size: 1.5rem;
-  top : 20%;
+  top: 20%;
   left: 33.5%;
 }
 
-
-.js{
+.js {
   font-size: 2rem;
   left: 30%;
   top: 70%;
 }
 
-.css{
+.css {
   writing-mode: vertical-rl;
   left: 25%;
   top: 75%;
   letter-spacing: 15px;
 }
 
-.html{
+.html {
   font-size: 3rem;
   top: 80%;
   left: 30%;
 }
 
-.react{
+.react {
   left: 18%;
   top: 70%;
 }
 
-.git{
+.git {
   font-size: 2rem;
   left: 18%;
   top: 85%;
 }
 
-.gitlab{
+.gitlab {
   left: 15%;
   top: 77%;
 }
 
-.sass{
+.sass {
   letter-spacing: 10px;
   left: 44%;
   top: 75%;
   writing-mode: vertical-rl;
 }
 
-.mongodb{
+.mongodb {
   letter-spacing: 7px;
   font-weight: bold;
   font-size: 1rem;
@@ -260,189 +260,528 @@ span{
   top: 72%;
 }
 
-.mysql{
-  left:62%;
+.mysql {
+  left: 62%;
   top: 76%;
   writing-mode: vertical-rl;
 }
 
-.nodejs{
+.nodejs {
   font-size: 2rem;
   left: 52%;
   top: 80%;
 }
 
-.agile{
+.agile {
   font-size: 2rem;
-  left:70%;
+  left: 70%;
   top: 77%;
 }
 
-
-#resume{
+#resume {
   background-color: #041C32;
   color: #787A91;
   padding-top: 10%;
   padding-bottom: 0%;
 }
 
-.about{
+.about {
   padding: 10% 20% !important;
 }
 
-.progress{
+.progress {
   margin: 5px;
   margin-bottom: 7px;
   background-color: #92A9BD !important;
 }
 
-.btn-primary{
-   margin-top: 5px;
+.btn-primary {
+  margin-top: 5px;
+  font-weight: 500 !important;
+  font-size: 1.25rem;
   --bs-btn-color: black !important;
-    --bs-btn-bg: #7C99AC !important;
-    --bs-btn-border-color: #7C99AC !important;
-    --bs-btn-hover-color: #041C32 !important;
-    --bs-btn-hover-bg: #316B83 !important;
-    --bs-btn-hover-border-color: #316B83 !important;
+  --bs-btn-bg: #7C99AC !important;
+  --bs-btn-border-color: #7C99AC !important;
+  --bs-btn-hover-color: #041C32 !important;
+  --bs-btn-hover-bg: #316B83 !important;
+  --bs-btn-hover-border-color: #316B83 !important;
 }
 
-.webdev{
+.webdev {
   display: inline-block;
 }
 
-.aboutrow{
+.aboutrow {
   text-align: center;
 }
 
-.tech{
+.tech {
   font-weight: 500;
   letter-spacing: 3.5px !important;
 }
 
-img{
+img {
   height: 200px;
   width: 200px;
 }
 
-.imgpara{
-  font-size: 1.15rem !important;
+p, li, .imgpara{
+  font-size: 1.25rem !important;
 }
 
-.row{
+.row {
   width: 100%;
 }
 
-.h2websites{
-  padding:0% 5% 5%;
+.h2websites {
+  padding: 0% 5% 5%;
 }
 
-.box{
-  background-color:transparent;
+.box {
+  background-color: transparent;
   color: #787A91;
   padding: 5px;
   border-radius: 5px;
 }
 
-
-@media only screen and ( max-width:990px) {
-   h5{
-	letter-spacing: 1px;
-   }
- 
-  #header{
-    background-color: #8D8DAA;
-    color: #0F044C;
+@media only screen and (max-width:990px) and (min-width:500px) {
+  #header {
     text-align: center;
+    position: fixed;
+    font-weight: 500;
+    width: 100%;
   }
 
-  .float{
-    padding: 2%;
-      display: inline-block;
-      font-size: 1rem;
-      letter-spacing: 3px;
+  .intro{
+    margin-top: 0%;
   }
 
-  .name{
-    font-size: 3.25rem;
-    left: 20%;
-    top:47%;
-    }
-
-  .fullstackdeveloper{
-    font-size: 1rem;
-    top:60%;
-    }
-
-    .ambitious{
-      font-size: 2rem;
-      left:60%;
-      top:30%;
-    }
-
-}
-
-@media only screen and ( max-width:790px) {
-  #header{
-    text-align: center;
-  }
-
-  .float{
+  .float {
     padding: 0%;
-      display: inline-block;
-      font-size: 1rem;
-      letter-spacing: 1px;
+    display: inline-block;
+    font-size: 1.55rem !important;
+    letter-spacing: 1px;
   }
 
-  .name{
-    font-size: 2.5rem;
-    left: 20%;
-    top:47%;
-    }
+  /* span {
+    display: block;
+  } */
 
-  .fullstackdeveloper{
-    font-size: 1rem;
-    top:60%;
-    }
-
-    .ambitious{
-      font-size: 1.5rem;
-      left:60%;
-      top:30%;
-    }
-
-}
-
-@media only screen and ( max-width:400px) {
-  h5{
-	letter-spacing: 1px;
-   }
-	
-  #header{
+  .name {
+    display: block;
+    font-size: 3rem;
     text-align: center;
+    margin: 0px auto;
+    left: 15.5%;
+    top: 45%;
   }
 
-  .float{
-    padding: 0%;
-      display: inline-block;
-      font-size: 1rem;
-      letter-spacing: 1px;
+  .fullstackdeveloper {
+    font-size: 1.75rem !important;
+    left: 35%;
+    top: 52%;
   }
 
-  .name{
+  .aspiring {
+    top: 10%;
+    left: 15%;
+  }
+
+  .evolve {
+    writing-mode: vertical-rl;
+    top: 20%;
+    left: 17.5%;
+  }
+
+  .innovative {
+    top: 15%;
+    left: 35%;
+  }
+
+  .capable {
+    letter-spacing: 10px;
+    top: 33.5%;
+    left: 15%;
+  }
+
+  .adaptive {
+    writing-mode: vertical-rl;
+    top: 10%;
+    left: 55%;
+  }
+
+  .growth {
+    top: 10%;
+    left: 70%;
+  }
+
+  .precision {
+    top: 20%;
+    left: 70%;
+  }
+
+  .ambitious {
+    font-size: 2.75rem !important;
+    left: 50%;
+    top: 30%;
+  }
+
+  .react {
+    left: 15%;
+    top: 65%;
+  }
+
+  .gitlab {
+    left: 12.5%;
+    top: 72%;
+  }
+
+  .git {
+    left: 15%;
+    top: 80%;
+  }
+
+  .js {
+    left: 30%;
+    top: 62.5%;
+    font-size: 2rem !important;
+  }
+
+  .css {
+    writing-mode: vertical-rl;
+    left: 27%;
+    top: 70%;
+    letter-spacing: 5px;
+  }
+
+  .html {
+    font-size: 1.5rem;
+    top: 80%;
+    left: 28.5%;
+  }
+
+  .sass {
+    letter-spacing: 10px;
+    left: 37.5%;
+    top: 72.5%;
+    writing-mode: vertical-rl;
+  }
+
+  .mongodb {
+    letter-spacing: 7px;
+    font-weight: 500;
+    font-size: 1rem;
+    left: 55%;
+    top: 65%;
+  }
+
+  .mysql {
+    left: 80%;
+    top: 70%;
+    letter-spacing: 5px;
+    writing-mode: vertical-rl;
+  }
+
+  .nodejs {
+    font-size: 1.5rem;
+    left: 55%;
+    top: 80%;
+  }
+
+  .agile {
+    font-size: 2rem !important;
+    left: 50%;
+    top: 72%;
+  }
+
+  .icon{
     font-size: 2rem;
+    bottom: 2.5%;
+  }
+
+  .li{
+    left: 40%;
+  }
+
+  .about{
+    padding: 5% 10%;
+  }
+
+  .about, .work, .resume, .skills{
+    padding: 5% 25% !important;
+  }
+
+  img {
+    margin: 7.5%;
+    height: 185px;
+    width: 185px;
+  }
+
+  h4
+  {
+    font-size: 2.5rem !important;
+  }
+
+  h2{
+    font-size: 3.15rem !important;
+    letter-spacing: 5px;
+    padding: 15px;
+  }
+
+  h5{
+    font-size: 1.5rem !important;
+    letter-spacing: 2px !important;
+    margin-top: 5px;
+  }
+
+  h3{
+    font-size: 2rem !important;
+    display: block;
+  }
+
+  p, li, .imgpara{
+    font-size: 1.45rem !important;
+    font-weight: 500;
+  }
+
+  .webdevbtn{
+    display: none !important;
+  }
+
+  .box{
+    margin: 10px 0px;
+  }
+
+  .btn{
+    font-size: 1.15rem !important;
+    font-weight: 500 !important;
+  }
+
+  .availableforwork {
+    font-size: 3rem !important;
+  }
+
+  hr{
+    height: 0.5rem !important;
+    border-radius: 0.5rem;
+    background-image: linear-gradient(to right, yellow, green, yellow);
+  }
+
+  .col{
+    margin-bottom: 15px;
+  }
+
+
+}
+
+@media only screen and (max-width:500px) {
+  #header {
+    text-align: center;
+    position: fixed;
+    font-weight: 500;
+    width: 100%;
+  }
+
+  .intro{
+    margin-top: 0%;
+  }
+
+  .float {
+    padding: 0%;
+    display: inline-block;
+    font-size: 1.15rem;
+    letter-spacing: 1px;
+  }
+
+  span {
+    display: block;
+  }
+
+  .name {
+    display: block;
+    font-size: 2.25rem;
+    text-align: center;
+    margin: 0px auto;
+    left: 10%;
+    top: 40%;
+    width: 350px;
+  }
+
+  .fullstackdeveloper {
+    font-size: 1.25rem;
+    left: 10%;
+    top: 52%;
+    width: 350px;
+  }
+
+  .aspiring {
+    top: 10%;
+    left: 10%;
+  }
+
+  .evolve {
+    writing-mode: vertical-rl;
+    top: 20%;
+    left: 10%;
+  }
+
+  .innovative {
+    top: 15%;
     left: 20%;
-    top:20%;
-    }
+  }
 
-  .fullstackdeveloper{
-    font-size: 0.75rem;
-    top:30%;
-    }
+  .capable {
+    letter-spacing: 10px;
+    top: 30%;
+    left: 10%;
+  }
 
-    .ambitious{
-      font-size: 0.5rem;
-      left:60%;
-      top:20%;
-    }
+  .adaptive {
+    writing-mode: vertical-rl;
+    top: 10%;
+    left: 50%;
+  }
+
+  .growth {
+    top: 10%;
+    left: 65%;
+  }
+
+  .precision {
+    top: 15%;
+    left: 65%;
+  }
+
+  .ambitious {
+    font-size: 2rem;
+    left: 45%;
+    top: 25%;
+  }
+
+  .react {
+    left: 10%;
+    top: 65%;
+  }
+
+  .gitlab {
+    left: 10%;
+    top: 72%;
+  }
+
+  .git {
+    left: 10%;
+    top: 80%;
+  }
+
+  .js {
+    left: 30%;
+    top: 65%;
+  }
+
+  .css {
+    writing-mode: vertical-rl;
+    left: 25%;
+    top: 70%;
+    letter-spacing: 5px;
+  }
+
+  .html {
+    font-size: 1.5rem;
+    top: 80%;
+    left: 30%;
+  }
+
+  .sass {
+    letter-spacing: 10px;
+    left: 35%;
+    top: 70%;
+    writing-mode: vertical-rl;
+  }
+
+  .mongodb {
+    letter-spacing: 7px;
+    font-weight: bold;
+    font-size: 1rem;
+    left: 55%;
+    top: 65%;
+  }
+
+  .mysql {
+    left: 80%;
+    top: 70%;
+    writing-mode: vertical-rl;
+  }
+
+  .nodejs {
+    font-size: 1.5rem;
+    left: 55%;
+    top: 80%;
+  }
+
+  .agile {
+    left: 50%;
+    top: 72%;
+  }
+
+  .icon{
+    bottom: 2.5%;
+  }
+
+  .li{
+    left: 40%;
+  }
+
+  img {
+    margin: 5%;
+    height: 150px;
+    width: 150px;
+  }
+
+  h4
+  {
+    font-size: 1.75rem !important;
+  }
+
+  h2{
+    font-size: 2.25rem !important;
+    letter-spacing: 5px;
+    padding: 15px;
+  }
+
+  h5{
+    letter-spacing: 2px !important;
+    margin-top: 5px;
+  }
+
+  h3{
+    font-size: 1.75rem !important;
+    display: block;
+  }
+
+  p, li{
+    font-size: 1.15rem !important;
+  }
+
+  .webdevbtn{
+    display: none !important;
+  }
+
+  .box{
+    margin: 15px;
+  }
+
+  .btn{
+    font-weight: 500 !important;
+  }
+
+  hr{
+    height: 0.5rem !important;
+    border-radius: 0.5rem;
+    background-image: linear-gradient(to right, yellow, green, yellow);
+  }
+
+  .col{
+    margin-bottom: 15px;
+  }
 
 }
