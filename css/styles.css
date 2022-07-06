@@ -731,6 +731,10 @@ p, li, .imgpara{
     left: 40%;
   }
 
+  .skills{
+    padding: 5% 15% !important;
+  }
+  
   img {
     margin: 5%;
     height: 150px;
@@ -759,6 +763,10 @@ p, li, .imgpara{
   }
 
   p, li{
+    font-size: 1.15rem !important;
+  }
+  
+  .imgpara{
     font-size: 1.15rem !important;
   }
 
