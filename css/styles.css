@@ -731,7 +731,7 @@ p, li, .imgpara{
     left: 40%;
   }
 
-  .skills{
+  .skills, .resume, .websites{
     padding: 5% 15% !important;
   }
   
